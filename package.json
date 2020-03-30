@@ -1,0 +1,54 @@
+{
+  "name": "eleventy-plugin-vibrant",
+  "version": "1.0.0",
+  "description": "Extract prominent colors from your Eleventy site's images.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "format": "prettier **/*.js *.md --write",
+    "test": "npx ava"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": "github:NotWoods/eleventy-plugin-vibrant",
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "palette",
+    "color",
+    "detection",
+    "varation",
+    "image",
+    "picture",
+    "canvas",
+    "vibrant",
+    "muted",
+    "colour"
+  ],
+  "author": {
+    "name": "Tiger Oakes",
+    "email": "contact@tigeroakes.com",
+    "url": "https://tigeroakes.com/"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/NotWoods/eleventy-plugin-vibrant/issues",
+  "homepage": "https://github.com/NotWoods/eleventy-plugin-vibrant#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "ava": "^3.5.1",
+    "prettier": "^2.0.2"
+  },
+  "dependencies": {
+    "node-vibrant": "^3.1.5"
+  },
+  "files": [
+    ".eleventy.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "ava": {
+    "files": [
+      "!**/fixtures/**"
+    ]
+  }
+}
